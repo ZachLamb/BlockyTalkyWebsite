@@ -1,5 +1,6 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+sitemap:
+  exclude: "yes"
 ---
 @charset "utf-8";
 
@@ -28,11 +29,11 @@ $on-laptop:        800px;
 
 .btImages {
   display: inline-block;
-  max-width: 217px;
-  max-height: 217px;
+  max-width: 247px;
+  max-height: 247px;
 }
 .topBuffer{
-  margin-top: 60px
+  padding-top: 7%;
 }
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:

@@ -1,5 +1,5 @@
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-    <div class="container">
+    <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                 <i class="fa fa-bars"></i>
@@ -16,11 +16,13 @@
                     <a href="#page-top"></a>
                 </li>
                 {% for node in site.pages %}
-                  {% if page.url == node.url %}
-                    <li class="active page-scroll"><a href="{{site.baseurl}}/{{node.url}}/" class="active">{{node.title}}</a></li>
-                  {% else %}
-                    <li><a class="page-scroll" href="{{site.baseurl}}{{node.url}}">{{node.title}}</a></li>
-                  {% endif %}
+                    {% unless node.sitemap.exclude == "yes" %}
+                      {% if page.url == node.url %}
+                        <li class="active page-scroll"><a href="{{site.baseurl}}/{{node.url}}/" class="active">{{node.title}}</a></li>
+                      {% else %}
+                        <li><a class="page-scroll" href="{{site.baseurl}}{{node.url}}">{{node.title}}</a></li>
+                      {% endif %}
+                    {% endunless %}
                 {% endfor %}
             </ul>
         </div>
