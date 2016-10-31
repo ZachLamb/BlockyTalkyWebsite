@@ -4,7 +4,7 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                 <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand page-scroll" href="{{site.baseurl}}">
+            <a class="navbar-brand page-scroll" href="{{site.baseurl}}/">
                <span class="light">BlockyTalky</span>
             </a>
         </div>
@@ -15,7 +15,8 @@
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
-                {% for node in site.pages %}
+                {% assign sorted_pages = site.pages | sort:"order" %}
+                {% for node in sorted_pages %}
                     {% unless node.sitemap.exclude == "yes" %}
                       {% if page.url == node.url %}
                         <li class="active page-scroll"><a href="{{site.baseurl}}/{{node.url}}/" class="active">{{node.title}}</a></li>

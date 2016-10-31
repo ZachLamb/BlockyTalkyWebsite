@@ -5,6 +5,7 @@ layout: default
 active: true
 body: descriptionTemplate.html
 pic: makeApps.png
+order: 4
 ---
 We have partnered with MIT's App Inventor team to make it easy for you to create mobile apps that inter-connect with the physical devices you can invent
 
