@@ -11,6 +11,7 @@
 
  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+ <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
  </head>
 
 
@@ -19,7 +20,11 @@
      <!-- Navigation -->
      {% include navigation.html %}
      <div class="topBuffer"></div>
-     {% include {{page.body}} %}
+     {% for page in site.pages %}
+     {% unless page.sitemap.exclude == "yes" %}
+        {{page.content}}
+     {% endunless %}
+     {% endfor %}
 
 </body>
 
