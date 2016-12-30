@@ -5,6 +5,8 @@ GEM
     backports (3.6.8)
     colorator (1.1.0)
     ffi (1.9.14)
+    font-awesome-sass (4.7.0)
+      sass (>= 3.2)
     forwardable-extended (2.6.0)
     jekyll (3.2.1)
       colorator (~> 1.0)
@@ -63,6 +65,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  font-awesome-sass
   jekyll (= 3.2.1)
   jekyll-admin
   minima
@@ -71,4 +74,4 @@ RUBY VERSION
    ruby 2.2.3p173
 
 BUNDLED WITH
-   1.13.0
+   1.13.5

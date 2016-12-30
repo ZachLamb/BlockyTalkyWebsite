@@ -3,6 +3,7 @@ sitemap:
   exclude: "yes"
 ---
 @charset "utf-8";
+// @import "/Library/Ruby/Gems/2.0.0/gems/font-awesome-sass-4.1.0/vendor/assets/stylesheets/font-awesome";
 
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -40,8 +41,8 @@ $on-laptop:        800px;
   padding-top: 33%;
 }
 section{
-  padding-top: 90px;
-  padding-bottom: 50px;
+  padding-top: 6%;
+  padding-bottom: 6%;
 }
 //override
 a{
@@ -61,7 +62,6 @@ h1{
 }
 p, div {
     font-family: 'Roboto';
-    padding-top: 25px;
     padding-bottom: 25px
 }
 body {
@@ -82,12 +82,36 @@ body {
   font-color: white;
   color: white;
 }
-.whiteText{
+.interSection{
+  height: 100%;
+    background-image: url(../images/interBG.svg);
+    background-size:100% 100%;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size:contain;
+     background-repeat: no-repeat;
   font-color: white;
-  color: white
+  color: white;
+
+}
+.greyText{
+  font-color: $grey-color !important;
+  color: $grey-color;
+}
+.fiftyPercentPad{
+  padding-top: 50%;
+}
+.whiteText{
+  font-color: white !important;
+  color: white;
 }
 .bigSymbol{
   font-size: 125px;
+  margin-top: 170%;
+}
+.centerColThree{
+  margin-left: 1.5%;
+  margin-right: 0.5%;
 }
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:

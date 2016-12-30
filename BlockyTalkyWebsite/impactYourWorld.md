@@ -1,13 +1,13 @@
 ---
 title: Sense and Impact
 contentTitle: Sense and Impact Your World
-layout: default
+layout: pageOne
 active: true
 order: 3
 ---
-<section>
+<section id="impactYourWorld">
 <h2 class="text-center"> Sense and Impact Your World </h2>
-<div class="container-fluid">
+<div class="container">
   <div class="row">
     <div class="col-sm-offset-3 col-sm-6">
       <p class="text-center">BlockyTalky includes a powerful computer music toolkit. You can use it to create rich, interactive musical devices and performances. We are even working with music teachers to create a computer music curriculum that doesn’t require any prior musical experience.</p>
@@ -19,6 +19,11 @@ order: 3
     </div> <!-- col -->
     <div class="col-sm-5">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 911.47 532.93"><defs><style>.\33 f95efac-a547-4174-ae26-8331d95a8bf8{fill:#008012;}.\36 89078e4-6828-4184-b6f0-45c603107900{fill:#f7931e;}.\30 137e046-faac-4168-a39a-5b30e424dd57,.\33 97bff25-c5df-4b89-94b0-aee0754f313a,.\33 b807fde-4722-4927-ac87-37f0043e14ee,.\34 c2cdd91-de3f-4197-90ec-02bf256fb8d4,.b462502e-aaf5-4175-a178-8e9a7b2c9cca{fill:none;stroke-miterlimit:10;}.\33 97bff25-c5df-4b89-94b0-aee0754f313a,.\33 b807fde-4722-4927-ac87-37f0043e14ee,.b462502e-aaf5-4175-a178-8e9a7b2c9cca{stroke:#999;}.\33 97bff25-c5df-4b89-94b0-aee0754f313a{stroke-width:4.26px;}.\33 b807fde-4722-4927-ac87-37f0043e14ee{stroke-width:4.12px;}.b462502e-aaf5-4175-a178-8e9a7b2c9cca{stroke-width:5.92px;}.\37 46096d1-f1ff-4598-8279-02ad51e20fb7{fill:#999;}.\30 137e046-faac-4168-a39a-5b30e424dd57{stroke:#f7931e;}.\39 d0a8670-ea39-4a53-ab65-d5dc845ff0ac{fill:#0a9bcc;}.\34 c2cdd91-de3f-4197-90ec-02bf256fb8d4{stroke:#0a9bcc;stroke-width:12px;}</style></defs><title>senseAndImpactBT</title><g id="c9153fdb-03e3-4242-beb8-7db5adace3af" data-name="Layer 2"><g id="f68c6400-64a1-4dad-adb6-b32bd6d57452" data-name="senseWorldBT"><rect class="3f95efac-a547-4174-ae26-8331d95a8bf8" x="0.54" y="460.29" width="32.31" height="20.77" transform="translate(-408.09 267.26) rotate(-62.38)"/><ellipse class="689078e4-6828-4184-b6f0-45c603107900" cx="750.36" cy="38.65" rx="7.04" ry="4.56" transform="translate(7.35 150.34) rotate(-11.5)"/><path d="M65.43,61.34l24.53,2c7.1-11.42,14.35-22.51,25.72-30.71l-12.27-26A11.55,11.55,0,0,0,83.48,5L56.91,43.24A11.55,11.55,0,0,0,65.43,61.34Z"/><path class="397bff25-c5df-4b89-94b0-aee0754f313a" d="M205.18,410.85c8.29,23.13,3.15,67.73-15,95.19-22,33.32-70.82,32-103.11-.82"/><path class="3b807fde-4722-4927-ac87-37f0043e14ee" d="M225.71,256c-11.44-9.34-26.09-24.7-30.34-47.09-4.41-23.22,5.58-37.11,5.66-56.26.09-20.31-10.94-48.67-63.09-81.46"/><path class="b462502e-aaf5-4175-a178-8e9a7b2c9cca" d="M575.87,245.19c16.77-38.31,10.81-75,1.41-102.59-12.42-36.38-31.84-59.7-20.58-76.4C571.23,44.65,625.8,50.4,672,59.37"/><rect class="746096d1-f1ff-4598-8279-02ad51e20fb7" x="96.25" y="21.03" width="58.85" height="81.81" rx="12" ry="12" transform="translate(4.29 131.91) rotate(-56.2)"/><rect class="746096d1-f1ff-4598-8279-02ad51e20fb7" x="674.78" y="8.14" width="58.85" height="81.81" rx="12" ry="12" transform="translate(802.85 748.03) rotate(-102.02)"/><rect class="746096d1-f1ff-4598-8279-02ad51e20fb7" x="717.89" y="30.29" width="46.59" height="19.09" rx="5.61" ry="5.61" transform="translate(856.54 773.07) rotate(-102.02)"/><rect class="746096d1-f1ff-4598-8279-02ad51e20fb7" x="30.43" y="451.52" width="58.85" height="81.81" rx="12" ry="12" transform="translate(-407.4 325.88) rotate(-63.45)"/><line class="0137e046-faac-4168-a39a-5b30e424dd57" x1="755.79" y1="37.56" x2="911.37" y2="3.73"/><rect class="9d0a8670-ea39-4a53-ab65-d5dc845ff0ac" x="159.98" y="233.41" width="468.87" height="179" rx="12.49" ry="12.49"/><line class="4c2cdd91-de3f-4197-90ec-02bf256fb8d4" x1="391.77" y1="258.82" x2="391.77" y2="115.98"/><circle class="9d0a8670-ea39-4a53-ab65-d5dc845ff0ac" cx="391.77" cy="116.61" r="12.63"/><ellipse cx="212.45" cy="299.15" rx="14.93" ry="13.77"/><path d="M192.83,333.3s130.85,9.93,134.49,0S310.54,364.5,287.19,374,192.83,333.3,192.83,333.3Z"/><ellipse cx="279.15" cy="299.13" rx="14.93" ry="13.77"/><path class="9d0a8670-ea39-4a53-ab65-d5dc845ff0ac" d="M709.39,323.74"/></g></g></svg>
+    </div> <!-- col -->
+  </div> <!-- row -->
+  <div class="row">
+    <div class="text-center">
+      <a href="#connectInventions"><i class="fa fa-chevron-circle-down fa-5x" aria-hidden="true"></i></a>
     </div> <!-- col -->
   </div> <!-- row -->
 </div>

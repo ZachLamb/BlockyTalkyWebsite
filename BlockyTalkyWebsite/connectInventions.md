@@ -1,13 +1,13 @@
 ---
 title: Connect Your Inventions
 contentTitle: Connect Your Inventions
-layout: default
+layout: pageOne
 active: true
 order: 4
 ---
-<section class="blueSection">
+<section class="blueSection" id="connectInventions">
 <h2 class="text-center"> Connect Your Inventions</h2>
-<div class="container-fluid">
+<div class="container">
   <div class="row">
     <div class="col-sm-offset-3 col-sm-6">
       <p class="text-center">BlockyTalky includes a powerful computer music toolkit. You can use it to create rich, interactive musical devices and performances. We are even working with music teachers to create a computer music curriculum that doesn’t require any prior musical experience.</p>
@@ -22,6 +22,11 @@ order: 4
     </div> <!-- col -->
     <div class="col-sm-3">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 468.87 348.52"><defs><style>.dce9ee1b-46d2-4e5b-8acd-6e041e3e87cb{fill:#fff;}.baf83949-1bcb-4cd9-bfac-770e69608f7b{fill:#34880c;}.e64edfd2-37b8-4fb8-938e-c5cfe2f2f793{fill:none;stroke:#34880c;stroke-miterlimit:10;stroke-width:12px;}</style></defs><title>connectRightBT</title><g id="9c1a9509-ea79-44c0-a0d9-196609a8ff2f" data-name="Layer 2"><g id="94c1eeda-abc7-41d9-9bd9-bb90b0a98169" data-name="headLeftBT"><path class="dce9ee1b-46d2-4e5b-8acd-6e041e3e87cb" d="M194.12,7.73,185.6,5.9A76.85,76.85,0,0,1,175,36.73a66.66,66.66,0,0,1-14.11,16.34l5.79,7.38a66.3,66.3,0,0,0,16.46-18.2A77.93,77.93,0,0,0,194.12,7.73Z"/><path class="dce9ee1b-46d2-4e5b-8acd-6e041e3e87cb" d="M180.59,4.83,171,2.78a75.63,75.63,0,0,1-9.9,26.44,67.28,67.28,0,0,1-9.46,12.06l5.85,7.46a66.84,66.84,0,0,0,12.79-15.21A76.23,76.23,0,0,0,180.59,4.83Z"/><path class="dce9ee1b-46d2-4e5b-8acd-6e041e3e87cb" d="M156.42,26a75,75,0,0,0,9.49-24.34L158.1,0a77.29,77.29,0,0,1-6.75,17.65,71.06,71.06,0,0,1-8.44,12.47l5.26,6.7A67.42,67.42,0,0,0,156.42,26Z"/><path class="dce9ee1b-46d2-4e5b-8acd-6e041e3e87cb" d="M200,46.41a78.9,78.9,0,0,0,8.2-35.66l-8.58-1.84c-.48,9.18-2.7,23.29-11.11,36.95a66.16,66.16,0,0,1-18,19.36l5.87,7.48A66.07,66.07,0,0,0,200,46.41Z"/><rect class="baf83949-1bcb-4cd9-bfac-770e69608f7b" y="169.52" width="468.87" height="179" rx="12.49" ry="12.49"/><line class="dce9ee1b-46d2-4e5b-8acd-6e041e3e87cb" x1="231.79" y1="194.93" x2="231.79" y2="40.09"/><line class="e64edfd2-37b8-4fb8-938e-c5cfe2f2f793" x1="231.79" y1="194.93" x2="231.79" y2="52.09"/><circle class="baf83949-1bcb-4cd9-bfac-770e69608f7b" cx="231.79" cy="52.72" r="12.63"/><ellipse cx="52.47" cy="235.25" rx="14.93" ry="13.77"/><path d="M32.85,269.41s130.85,9.93,134.49,0-16.78,31.23-40.13,40.73S32.85,269.41,32.85,269.41Z"/><ellipse cx="119.17" cy="235.24" rx="14.93" ry="13.77"/></g></g></svg>
+    </div> <!-- col -->
+  </div> <!-- row -->
+  <div class="row">
+    <div class="text-center">
+      <a href="#makeApps"><i class="fa fa-chevron-circle-down fa-5x" aria-hidden="true"></i></a>
     </div> <!-- col -->
   </div> <!-- row -->
 </div>

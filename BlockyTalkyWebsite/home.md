@@ -1,11 +1,12 @@
 ---
 title: Home Page
-layout: default
+layout: pageOne
 active: true
 body: descriptionTemplate.html
 order: 1
 ---
 <section>
+
 <h1 class="text-center"> BlockyTalky </h1>
 <div class="container">
   <div class="row">
@@ -19,7 +20,7 @@ order: 1
   </div> <!-- row -->
   <div class="row">
     <div class="col-sm-offset-4 col-sm-4">
-      <p class="text-center">BlockyTalky is a Computer Science curriculum that seeks to bring out creativtiy among students. It is built with Pi computers, wifi, and the Blockly library</p>
+      <p class="text-center">BlockyTalky is a Computer Science curriculum that seeks to bring out creativity among students. It is built with Pi computers, wifi, and the Blockly library</p>
     </div>
    </div><!-- row -->
    <div class="row">
@@ -35,6 +36,11 @@ order: 1
     <div class="col-sm-3">
       <a href="#">How can I help?</a>
     </div> <!-- col -->
+   </div> <!-- row -->
+   <div class="row">
+     <div class="text-center">
+       <a href="#expressYourself"><i class="fa fa-chevron-circle-down fa-5x" aria-hidden="true"></i></a>
+     </div> <!-- col -->
    </div> <!-- row -->
 </div>
 </section>
