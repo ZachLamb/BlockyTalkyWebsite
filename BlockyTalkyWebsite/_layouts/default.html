@@ -19,8 +19,10 @@
 
      <!-- Navigation -->
      {% include navigation.html %}
-     <div class="topBuffer"></div>
-     {% for page in site.pages %}
+     <!-- <div class="topBuffer"></div> -->
+
+     {% assign sorted_pages = site.pages | sort:"order" %}
+     {% for page in sorted_pages %}
      {% unless page.sitemap.exclude == "yes" %}
         {{page.content}}
      {% endunless %}
