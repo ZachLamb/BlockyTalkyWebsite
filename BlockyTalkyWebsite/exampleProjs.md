@@ -36,7 +36,7 @@ sitemap:
 </div> <!-- row -->
 <div class="row">
     <div class="text-center">
-      <a href="../moderned.html" class="whiteText">How can you get involved? <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+      <a href="../assemblyAndCost.html" class="whiteText">How can you get involved? <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
     </div> <!-- col -->
   </div> <!-- row -->
 </div>

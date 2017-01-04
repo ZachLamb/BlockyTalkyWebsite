@@ -1,6 +1,5 @@
 ---
-title: Modern CS Education
-contentTitle: Express Your Uniqueness
+title: Assembly & Cost
 layout: pageThree
 active: true
 order: 1

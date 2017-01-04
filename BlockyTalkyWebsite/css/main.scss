@@ -113,6 +113,13 @@ body {
   margin-left: 1.5%;
   margin-right: 0.5%;
 }
+.devPadding {
+  padding-top: 11%;
+}
+//override fontAwesome
+.fa-7x{
+  font-size: 7em !important;
+}
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
 // @include media-query($on-palm) {

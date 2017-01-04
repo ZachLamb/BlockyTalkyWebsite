@@ -75,3 +75,9 @@ body {
 .centerColThree {
   margin-left: 1.5%;
   margin-right: 0.5%; }
+
+.devPadding {
+  padding-top: 11%; }
+
+.fa-7x {
+  font-size: 7em !important; }
